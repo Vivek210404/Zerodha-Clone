@@ -10,3 +10,19 @@ body {
   background: #fff;
   color: #000;
 }
+
+.nav-link {
+  margin-left: 30px;
+}
+
+footer .col a {
+  display: block;
+  /* margin-bottom: 2px;  */
+  color: #6c757d;          
+  text-decoration: none;  
+  
+}
+
+footer a:hover {
+  color: #0d6efd;         
+}
