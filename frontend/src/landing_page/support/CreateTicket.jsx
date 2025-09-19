@@ -6,8 +6,8 @@ function CreateTicket() {
       <div className="row p-5 mt-5 mb-5">
         <h1 className="fs-2">To create a ticket, select a relevent topic</h1>
         <div className="col-4 p-5 mt-2 mb-2">
-          <h4>
-            <i class="fa-solid fa-circle-plus"></i>Account Opening
+          <h4 className="fs-5">
+            <i class="fa-solid fa-circle-plus"></i> Account Opening
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Online Account Opening
@@ -43,8 +43,8 @@ function CreateTicket() {
           <br />
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
-          <h4>
-            <i class="fa-solid fa-circle-plus"></i>Your Zerodha Account
+          <h4 className="fs-5">
+            <i class="fa-solid fa-user"></i> Your Zerodha Account
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Login Credentials
@@ -68,8 +68,8 @@ function CreateTicket() {
           <br />
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
-          <h4>
-            <i class="fa-solid fa-circle-plus"></i>Trading and Markets
+          <h4 className="fs-5">
+            <i class="fa-solid fa-chart-column"></i> Trading and Markets
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Kite Web and Mobile
@@ -101,8 +101,8 @@ function CreateTicket() {
           <br />
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
-          <h4>
-            <i class="fa-solid fa-circle-plus"></i>Funds
+          <h4 className="fs-5">
+            <i class="fa-solid fa-credit-card"></i> Funds
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Adding Funds
@@ -122,8 +122,8 @@ function CreateTicket() {
           <br />
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
-          <h4>
-            <i class="fa-solid fa-circle-plus"></i>Q/Backoffice
+          <h4 className="fs-5">
+            <i class="fa-solid fa-circle-notch"></i> Q/Backoffice
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Reports
@@ -155,8 +155,8 @@ function CreateTicket() {
           <br />
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
-          <h4>
-            <i class="fa-solid fa-circle-plus"></i>Mutual Funds - Coin
+          <h4 className="fs-5">
+            <i class="fa-regular fa-circle"></i> Mutual Funds - Coin
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             About Coin
