@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Hero() {
   const [phone, setPhone] = useState("");
   return (
-    <div className="container">
+    <div className="container mb-5">
       <div className="row text-center mt-5 p-3">
         <h1 className="fs-2">Open a free demat and trading account online</h1>
         <h4 className="text-muted mt-3 fs-5 mb-5">
@@ -55,11 +55,11 @@ export default function Hero() {
 
           <p className="text-muted">
             By proceeding, you agree to the
-            <Link className="text-decoration-none mx-1" to={"/term"}>
+            <Link className="text-decoration-none mx-1">
               terms
             </Link>
             &
-            <Link className="text-decoration-none mx-1" to={"/policy"}>
+            <Link className="text-decoration-none mx-1">
               privacy policy
             </Link>
           </p>
@@ -67,7 +67,7 @@ export default function Hero() {
           <div className="border-top">
           <p className="text-muted">
             Looking to open NRI account?
-            <Link className="text-decoration-none mx-1" to={"/policy"}>
+            <Link className="text-decoration-none mx-1">
               Click here
             </Link>
           </p>
