@@ -139,7 +139,7 @@ function Footer() {
             claiming to be part of Zerodha and offering such services, please <a href="">create a ticket here</a>.
           </p>
         </div>
-        <div className="text-center mb-3">
+        <div className="text-center mb-2 footer-links">
           <a
             href="#"
             class="text-secondary text-decoration-none me-3 fw-semibold"
